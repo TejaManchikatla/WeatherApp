@@ -1,0 +1,41 @@
+.cityInfo{
+    margin: 1rem 5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    width: 50%;
+    font-size: large;
+    font-weight: 600;
+    height: 5rem;
+    border-top: 0.2rem beige solid;
+    border-bottom: 0.2rem beige solid;
+    padding: 0.5rem 1rem 1rem 1rem;
+}
+.cityName{
+    font-size: larger;
+    font-weight: 450;
+}
+.coordsSpan{
+    font-weight: 400;
+}
+.cityCoords{
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem 0rem;
+    justify-content:space-evenly;
+}
+.latitude, .longitude{
+    width: max-content;
+    height: 2rem;
+    background-color: transparent;
+}
+.longitude{
+
+    
+}
+.latitude{
+    
+}

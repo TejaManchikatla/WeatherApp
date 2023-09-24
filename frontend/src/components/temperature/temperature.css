@@ -1,0 +1,67 @@
+.temp{
+    margin: 1rem 5rem;
+    border-top: 0.3rem orange solid;
+    border-bottom: 0.3rem orange solid;
+    border-radius: 1rem;
+    padding: 0;
+    height: 7.8rem;
+}
+.tempText{
+    font-size: large;
+    font-weight: 500;
+}
+.tempInfo{
+    display: flex;
+    flex-direction: column;
+    height: 5rem;
+    width: 30rem;
+    margin-top: 1.8rem;
+    background-color: transparent;
+}
+.tempBar{
+    background-color: red;
+    height: 0.3rem;
+    margin: 0.5rem 1.2rem 0rem 1.2rem;
+    border-radius: 1rem;
+
+
+}
+.tempStore{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem 0rem;
+}
+.minTemp, .maxTemp{
+
+    background-color: transparent;
+    border-radius: 50%;
+    margin-top: 0;
+    width: 2rem;
+    height: 2rem;
+   display: flex;
+   align-items:stretch;
+   justify-content: center;
+   font-weight: bolder;
+    
+}
+.currTemp{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.minTemp>span, .maxTemp>span, .currTemp{
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.minTemp{
+    margin-right: auto;
+    margin-left: 0.7rem;
+    align-self: flex-start;
+}
+.maxTemp{
+    margin-right: 0.2rem;
+    margin-left: auto;
+    align-self: flex-end;
+}

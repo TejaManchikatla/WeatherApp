@@ -1,0 +1,27 @@
+.weather{
+    margin: 0.5rem 1rem;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    width: 50%;
+    height: 5rem;
+    font-size: larger;
+}
+.weather>img{
+    margin: 0;
+    width: 45%;
+    height: 100%;
+    display: inline-block;
+    object-fit: cover;
+}
+.weatherShortInfo{
+    font-size: large;
+    font-weight: 600;
+
+}
+.weatherLongInfo{
+    font-size: medium;
+    font-weight: 400;
+    text-align: center;
+    background-color:transparent;
+}

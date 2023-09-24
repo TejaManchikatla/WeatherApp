@@ -1,0 +1,12 @@
+.home{
+    min-width: 34rem;
+    max-width: 40rem;
+    height: 90vh;
+    margin: 0.5rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 0.5rem navy solid;
+    border-right: 0.5rem navy solid;
+    border-radius: 1rem;
+}

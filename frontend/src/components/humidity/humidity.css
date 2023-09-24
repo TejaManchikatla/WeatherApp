@@ -1,0 +1,21 @@
+.humidity{
+    margin: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.3rem blue solid;
+    border-bottom: 0.3rem blue solid;
+    border-radius: 1rem;
+    padding: 0rem 1rem;
+    
+}
+.humiText{
+    font-size: large;
+    font-weight: bold;
+}
+.humidNumber{
+    background-color: transparent;
+    font-size: 2rem;
+    margin: 0 0.2rem 0 1rem;
+
+}
