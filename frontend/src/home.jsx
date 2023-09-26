@@ -20,6 +20,7 @@ const Home = () => {
     const [weatherIcon, setWeatherIcon] = useState("Image");
     const [weatherDesc, setWeatherDesc] = useState("Random");
     const [bgColor, setBgColor] = useState("white");
+    const [fontColor, setFontColor] = useState("black");
     const [id, setId] = useState(24);
     const i=1;
   
@@ -33,10 +34,12 @@ const Home = () => {
             let list = await response.json();
             console.log("fetched",id,"data",list);
             console.log(list);
-            if(list["weatherIcon"].at(-1)=='n'){
+            if(list["weatherIcon"].at(-1)==="n"){
                 setBgColor("rgb(58, 58, 141)");
+                setFontColor("white");
             }else{
                 setBgColor("rgb(107, 107, 255)");
+                setFontColor("black");
             };
             setCityName(list["cityName"]);
                         setLatitude(list["latitude"]);
@@ -57,7 +60,7 @@ const Home = () => {
 
 
 
-        <div className="home" style={{backgroundColor:bgColor}}>
+        <div className="home" style={{backgroundColor:bgColor, color: fontColor}}>
             <SearchBar handleClick={changeId}></SearchBar>
             <CityInfo cityName={cityName} latitude={latitude} longitude={longitude}></CityInfo>
             <Temperature minTemp={minTemp} maxTemp={maxTemp} currTemp={currTemp}></Temperature>
